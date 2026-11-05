@@ -33,7 +33,7 @@ The current assets are referenced from `index.html`:
 
 ## Typography, layout and effects
 
-The title uses the variable **Fraunces** font from Google Fonts with the SOFT and WONK axes. To change it, update the Fraunces `<link>` in `index.html` and the `font-family`/`font-variation-settings` on `h1` in `style.css`.
+The OCEAN title uses `assets/ocean-script.png` and scales to the available title column width on desktop and mobile.
 
 Desktop uses one centered three-column grid: cover and title in the first column, with the four streaming links in two aligned columns. Mobile changes to a centered release flow with a two-column link grid. The title is fitted to its column after the web font is ready.
 
