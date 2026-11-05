@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#061a26">
+  <meta name="description" content="OCEAN, the new single by Ramtej. Out now.">
+  <meta property="og:title" content="OCEAN — Ramtej">
+  <meta property="og:description" content="OCEAN, the new single by Ramtej. Out now.">
+  <meta property="og:type" content="music.song">
+  <meta property="og:image" content="assets/ocean-cover.jpeg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="OCEAN — Ramtej">
+  <meta name="twitter:description" content="OCEAN, the new single by Ramtej. Out now.">
+  <meta name="twitter:image" content="assets/ocean-cover.jpeg">
+  <title>OCEAN — Ramtej</title>
+  <link rel="icon" href="assets/ramtej-signature.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght,SOFT,WONK@9..144,900,0..100,0..1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="ocean-page" id="home">
+    <div class="water" aria-hidden="true">
+      <div class="water-light water-light-one"></div>
+      <div class="water-light water-light-two"></div>
+      <div class="light-rays"></div>
+      <canvas class="bubble-canvas" aria-hidden="true"></canvas>
+    </div>
+    <div class="falling-layer" aria-hidden="true">
+      <div class="falling-character" data-character>
+        <img src="assets/Floating Character in Forest Green Outfit.png" alt="" decoding="async">
+      </div>
+    </div>
+    <div class="cursor-bubble" aria-hidden="true"></div>
+    <div class="ripple-layer" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Ramtej home">
+        <img src="assets/ramtej-signature.png" alt="Ramtej signature" decoding="async">
+      </a>
+    </header>
+
+    <section class="release-layout" aria-labelledby="release-title">
+      <div class="left-column">
+        <p class="release-label">OUT NOW</p>
+        <div class="cover-wrap">
+          <img class="cover-art" src="assets/ocean-cover.jpeg" alt="OCEAN single cover art by Ramtej" width="1000" height="1000" decoding="async">
+          <span class="cover-caustic" aria-hidden="true"></span>
+        </div>
+        <h1 id="release-title" aria-label="OCEAN"><span aria-hidden="true">O</span><span aria-hidden="true">C</span><span aria-hidden="true">E</span><span aria-hidden="true">A</span><span aria-hidden="true">N</span></h1>
+      </div>
+
+      <nav class="streaming-links" id="listen" aria-label="Listen to OCEAN">
+        <!-- Paste live URLs into OCEAN_LINKS.platforms in script.js. -->
+        <a class="stream-link stream-link-spotify" data-platform="spotify" href="#" target="_blank" rel="noopener" aria-label="Listen to OCEAN on Spotify">
+          <span class="stream-content"><span class="platform-logo" aria-hidden="true"><img src="assets/spotify.png" alt="" width="44" height="44" draggable="false" loading="eager"></span>
+          <span class="stream-name">Spotify</span><span class="scribble" aria-hidden="true"><svg viewBox="0 0 100 12"><path d="M2 7.5c18-4 32 2 49-1s30-3 47-2"></path><path d="M10 10c17-2 29 1 43-1s29-2 41 0"></path></svg></span></span><span class="link-bubbles" aria-hidden="true"></span>
+        </a>
+        <a class="stream-link stream-link-apple" data-platform="appleMusic" href="#" target="_blank" rel="noopener" aria-label="Listen to OCEAN on Apple Music">
+          <span class="stream-content"><span class="platform-logo" aria-hidden="true"><img src="assets/applemusic.png" alt="" width="44" height="44" draggable="false" loading="eager"></span>
+          <span class="stream-name">Apple Music</span><span class="scribble" aria-hidden="true"><svg viewBox="0 0 100 12"><path d="M2 7.5c18-4 32 2 49-1s30-3 47-2"></path><path d="M10 10c17-2 29 1 43-1s29-2 41 0"></path></svg></span></span><span class="link-bubbles" aria-hidden="true"></span>
+        </a>
+        <a class="stream-link stream-link-youtube" data-platform="youtubeMusic" href="#" target="_blank" rel="noopener" aria-label="Listen to OCEAN on YouTube Music">
+          <span class="stream-content"><span class="platform-logo" aria-hidden="true"><img src="assets/ytmusic.png" alt="" width="44" height="44" draggable="false" loading="eager"></span>
+          <span class="stream-name">YouTube Music</span><span class="scribble" aria-hidden="true"><svg viewBox="0 0 100 12"><path d="M2 7.5c18-4 32 2 49-1s30-3 47-2"></path><path d="M10 10c17-2 29 1 43-1s29-2 41 0"></path></svg></span></span><span class="link-bubbles" aria-hidden="true"></span>
+        </a>
+        <a class="stream-link stream-link-amazon" data-platform="amazonMusic" href="#" target="_blank" rel="noopener" aria-label="Listen to OCEAN on Amazon Music">
+          <span class="stream-content"><span class="platform-logo" aria-hidden="true"><img src="assets/amazonmusic.png" alt="" width="44" height="44" draggable="false" loading="eager"></span>
+          <span class="stream-name">Amazon Music</span><span class="scribble" aria-hidden="true"><svg viewBox="0 0 100 12"><path d="M2 7.5c18-4 32 2 49-1s30-3 47-2"></path><path d="M10 10c17-2 29 1 43-1s29-2 41 0"></path></svg></span></span><span class="link-bubbles" aria-hidden="true"></span>
+        </a>
+      </nav>
+    </section>
+
+    <footer class="site-footer">
+      <div class="social-links">
+        <a data-social="instagram" href="#" target="_blank" rel="noopener">Instagram</a>
+        <a data-social="youtube" href="#" target="_blank" rel="noopener">YouTube</a>
+      </div>
+      <span>© Ramtej 2026</span>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
