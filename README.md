@@ -8,14 +8,16 @@ Replace the empty values in `OCEAN_LINKS` near the top of `script.js`:
 
 ```js
 platforms: {
-  spotify: "https://open.spotify.com/your-song-link",
-  appleMusic: "https://music.apple.com/your-song-link",
-  youtubeMusic: "https://music.youtube.com/your-song-link",
-  amazonMusic: "https://music.amazon.com/your-song-link"
+  spotify: "https://open.spotify.com/album/6RAqFai1jzepr9I1Y4dkpa",
+  appleMusic: "",
+  youtubeMusic: "https://music.youtube.com/watch?v=94bz_E3xpaY",
+  amazonMusic: "https://music.amazon.in/albums/B0HQKNW4LL",
+  youtube: "https://youtu.be/94bz_E3xpaY",
+  genius: "https://genius.com/Ramtej-ocean-lyrics"
 }
 ```
 
-Add Instagram and YouTube profile URLs under `OCEAN_LINKS.socials`. Valid `https://` destinations open in a new tab; empty values remain safely inactive.
+Add Instagram and YouTube profile URLs under `OCEAN_LINKS.socials`. Valid `https://` destinations open in a new tab; empty values remain safely inactive. Apple Music is currently marked as coming soon.
 
 ## Replace assets and logos
 
@@ -28,8 +30,11 @@ The current assets are referenced from `index.html`:
 - Apple Music logo: `assets/applemusic.png`
 - YouTube Music logo: `assets/ytmusic.png`
 - Amazon Music logo: `assets/amazonmusic.png`
+- YouTube logo: `assets/youtubelogo.png`
+- Genius logo: `assets/genius.png`
+- Instagram logo: `assets/insta.png`
 
-`assets/youtubelogo.png` is intentionally unused. To replace a streaming logo, swap the corresponding image `src` inside `.platform-logo` and keep its fixed box dimensions.
+To replace a streaming logo, swap the corresponding image `src` inside `.platform-logo` and keep its fixed box dimensions.
 
 ## Typography, layout and effects
 

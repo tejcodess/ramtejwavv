@@ -9,8 +9,15 @@ const ENABLE_FALLING_CHARACTER = true;
 const LITE_MODE_AUTO = true;
 
 const OCEAN_LINKS = {
-  platforms: { spotify: "", appleMusic: "", youtubeMusic: "", amazonMusic: "" },
-  socials: { instagram: "", youtube: "" }
+  platforms: {
+    spotify: "https://open.spotify.com/album/6RAqFai1jzepr9I1Y4dkpa?si=HKSjPXjPSPyw6WplPrRDYA&utm_source=whatsapp",
+    appleMusic: "",
+    youtubeMusic: "https://music.youtube.com/watch?v=94bz_E3xpaY&si=W2hCh8Zx9tSiF928",
+    amazonMusic: "https://music.amazon.in/albums/B0HQKNW4LL?marketplaceId=A21TJRUUN4KGV&musicTerritory=IN&ref=dm_sh_DNaCiCyEmoIGwCeByGUfBgwxM",
+    youtube: "https://youtu.be/94bz_E3xpaY?si=UJ4ZrkwT_jm3KISi",
+    genius: "https://genius.com/Ramtej-ocean-lyrics"
+  },
+  socials: { instagram: "https://www.instagram.com/ramtejwavv", youtube: "" }
 };
 
 (function () {
